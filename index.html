@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to CV Analyzer</h1>
+        <p>Upload your CV to get a detailed analysis of your skills and keywords!</p>
+    </header>
+    <main>
+        <form id="cv-form" action="#" method="post" enctype="multipart/form-data">
+            <label for="cv-upload">Upload Your CV (PDF or Word):</label>
+            <input type="file" id="cv-upload" name="cv" accept=".pdf,.doc,.docx" required>
+            <button type="submit">Analyze CV</button>
+        </form>
+        <div id="analysis-results">
+            <!-- Results will appear here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 CV Analyzer. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
